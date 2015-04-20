@@ -1,0 +1,26 @@
+{
+  "name": "notController",
+  "main": "notController.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/interrupter/controller",
+  "authors": [
+    "interrupter"
+  ],
+  "description": "Simple page controller from blockNot.",
+  "keywords": [
+    "controller",
+    "front-end",
+    "frontend",
+    "engine",
+    "blockNot",
+    "json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
