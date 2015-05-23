@@ -8,5 +8,5 @@ var notController = function(app, controllerName){
 }
 
 notController.prototype.exec = function(params){
-    new (window[this.ncName])(this.app, params);
+    (typeof((window[this.ncName]))!=='undefined')? (new (window[this.ncName])(this.app, params)):'';
 }
